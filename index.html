@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cm_to_inches</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="wrapper" class="maindiv">
+      <h2>cm to inches</h2>
+      <div class="inputdiv">
+        <input type="text" id="input" placeholder="enter cm vaule">
+      </div>
+      <div >
+        <button type="sumit" onclick="convert()">convert into inches</button>
+      </div>
+      <div id="result" style="background-color: antiquewhite;">
+<h3>  </h3>
+      </div>
+    </div>
+    <script>
+      function convert(){
+     let cmval = Number(document.getElementById("input").value)
+     let inchval=cmval/2.54
+     let result=document.getElementById("result")
+     result.innerHTML=inchval.toFixed(2)+" inches"
+      }
+    </script>
+</body>
+</html>

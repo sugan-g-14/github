@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(212, 178, 178);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.inputdiv{
+    backgrouond-color:blue;
+}
+
+.maindiv{
+    background-color: rgb(218, 230, 230);
+    height: 50vh;
+    width: 30vw;  
+   
+   
+
+}
